@@ -1,6 +1,6 @@
-var parte1 = 3;
-var parte2 = 4;
-var parte3 = 5;
+var parte1 = Math.floor(Math.random()*5);
+var parte2 = parte1 + 1;
+var parte3 = parte1 + 2;
 
 var jogada;
 var atingidas = 0;
